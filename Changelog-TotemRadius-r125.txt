@@ -1,0 +1,319 @@
+------------------------------------------------------------------------
+r125 | cyprias | 2010-05-10 02:50:30 +0000 (Mon, 10 May 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Removed some debug messages.
+------------------------------------------------------------------------
+r123 | cyprias | 2010-05-10 02:43:14 +0000 (Mon, 10 May 2010) | 2 lines
+Changed paths:
+   M /trunk/AVR.lua
+   M /trunk/core.lua
+
+Added UNIT_DISSIPATES to combatlog totem death watch.
+Fixed showing other shaman's totems when option is et to Mine Only.
+------------------------------------------------------------------------
+r122 | cyprias | 2010-05-10 00:16:09 +0000 (Mon, 10 May 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+   M /trunk/func.lua
+   M /trunk/zoneData.lua
+
+Changed how I get zonemap for other shaman's totems. Not sure if this'll help any.
+------------------------------------------------------------------------
+r120 | cyprias | 2010-05-10 00:00:35 +0000 (Mon, 10 May 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Fixed AceConfig going into the wrong folder (pkgmeta)
+------------------------------------------------------------------------
+r119 | cyprias | 2010-05-09 23:57:39 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   M /trunk/minimap.lua
+
+Fixed rings on minimap lingering when 'Show on minimap' is enabled/disabled. 
+------------------------------------------------------------------------
+r118 | cyprias | 2010-05-09 23:53:12 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   M /trunk/minimap.lua
+   M /trunk/options.lua
+
+As you change Show Minimap Rings. Current rings on minimap will hide/show. 
+------------------------------------------------------------------------
+r116 | cyprias | 2010-05-09 23:49:13 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Disabling minimap display now works. 
+------------------------------------------------------------------------
+r115 | cyprias | 2010-05-09 23:47:18 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+   M /trunk/options.lua
+
+Timer throttle increased when enabling/disabling minimap display.
+------------------------------------------------------------------------
+r113 | cyprias | 2010-05-09 23:39:36 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Fixed removing other shaman's totems when their HP changed. (again)
+------------------------------------------------------------------------
+r112 | cyprias | 2010-05-09 23:13:33 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   M /trunk/AVR.lua
+   M /trunk/core.lua
+   M /trunk/locales/enUS.lua
+   M /trunk/options.lua
+   M /trunk/totems.lua
+
+Added options to choose which fire totems to show fire nova ring around.
+------------------------------------------------------------------------
+r110 | cyprias | 2010-05-09 22:47:53 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Changed title text.
+------------------------------------------------------------------------
+r109 | cyprias | 2010-05-09 22:38:50 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/options.lua
+
+Changed option text for AVR ring thickness.
+------------------------------------------------------------------------
+r108 | cyprias | 2010-05-09 22:36:06 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   M /trunk/TotemRadius.toc
+
+Changed title in toc.
+------------------------------------------------------------------------
+r107 | cyprias | 2010-05-09 22:34:45 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Added findglobals to pkgmeta's tools-used.
+------------------------------------------------------------------------
+r106 | cyprias | 2010-05-09 22:34:08 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+
+Added pkgmeta
+------------------------------------------------------------------------
+r105 | cyprias | 2010-05-09 22:31:37 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   A /trunk/AVR.lua
+   A /trunk/TotemRadius.toc
+   A /trunk/core.lua
+   A /trunk/func.lua
+   A /trunk/locales
+   A /trunk/locales/deDE.lua
+   A /trunk/locales/enUS.lua
+   A /trunk/locales/esES.lua
+   A /trunk/locales/frFR.lua
+   A /trunk/locales/koKR.lua
+   A /trunk/locales/locales.xml
+   A /trunk/locales/ruRU.lua
+   A /trunk/locales/zhCN.lua
+   A /trunk/locales/zhTW.lua
+   A /trunk/minimap.lua
+   A /trunk/options.lua
+   A /trunk/textures
+   A /trunk/textures/Outline.tga
+   A /trunk/textures/Solid.tga
+   A /trunk/totems.lua
+   A /trunk/zoneData.lua
+
+Full upload
+------------------------------------------------------------------------
+r104 | cyprias | 2010-05-09 22:30:37 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   D /trunk/.pkgmeta
+   D /trunk/AVR.lua
+   D /trunk/Locales
+   D /trunk/TotemRadius.toc
+   D /trunk/core.lua
+   D /trunk/embeds.xml
+   D /trunk/func.lua
+   D /trunk/locales.xml
+   D /trunk/map.lua
+   D /trunk/options.lua
+   D /trunk/texture
+   D /trunk/totems.lua
+
+Redoing everything.
+------------------------------------------------------------------------
+r102 | cyprias | 2010-05-09 18:46:42 +0000 (Sun, 09 May 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Fixed UNIT_HEALTH removing totems on any health change.
+------------------------------------------------------------------------
+r99 | cyprias | 2010-05-06 20:44:31 +0000 (Thu, 06 May 2010) | 1 line
+Changed paths:
+   M /trunk/AVR.lua
+   M /trunk/core.lua
+
+Changed how I track UNIT_HEALTH. hopefully uses less CPU cycles.
+------------------------------------------------------------------------
+r98 | cyprias | 2010-05-06 20:35:21 +0000 (Thu, 06 May 2010) | 1 line
+Changed paths:
+   M /trunk/AVR.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/core.lua
+   M /trunk/options.lua
+
+Added option to show other shaman's totems as dotted rings (AVR).
+------------------------------------------------------------------------
+r96 | cyprias | 2010-05-04 05:05:44 +0000 (Tue, 04 May 2010) | 1 line
+Changed paths:
+   M /trunk/func.lua
+
+Changed debug message so it won't fire except for me.
+------------------------------------------------------------------------
+r95 | cyprias | 2010-05-04 05:04:22 +0000 (Tue, 04 May 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Fixed typo.
+------------------------------------------------------------------------
+r93 | cyprias | 2010-05-04 05:01:03 +0000 (Tue, 04 May 2010) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+
+We watch combatlog for shaman death and remove all their totems on death.
+We watch UNIT_HEALTH and if a shaman's health reaches zero, we remove all their totems. This is good if we're out of range of their death (like BGs)
+------------------------------------------------------------------------
+r92 | cyprias | 2010-05-04 04:30:45 +0000 (Tue, 04 May 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+When we see a shaman die, we remove all their totems. Should help with lingering totems in BGs.
+------------------------------------------------------------------------
+r91 | cyprias | 2010-05-03 23:56:21 +0000 (Mon, 03 May 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+If we load into a new zone (instance/bg). we remove all current totems from minimap and AVR. 
+------------------------------------------------------------------------
+r89 | cyprias | 2010-05-02 23:42:40 +0000 (Sun, 02 May 2010) | 1 line
+Changed paths:
+   M /trunk/AVR.lua
+   M /trunk/core.lua
+
+Removed some old code.
+------------------------------------------------------------------------
+r88 | cyprias | 2010-05-02 23:16:30 +0000 (Sun, 02 May 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+TR shouldn't waste CPU if we're in a zone with no coords (arena)
+------------------------------------------------------------------------
+r87 | cyprias | 2010-05-02 21:41:09 +0000 (Sun, 02 May 2010) | 1 line
+Changed paths:
+   M /trunk/TotemRadius.toc
+
+Testing toc change.
+------------------------------------------------------------------------
+r86 | cyprias | 2010-05-02 21:39:29 +0000 (Sun, 02 May 2010) | 1 line
+Changed paths:
+   M /trunk/TotemRadius.toc
+
+Testing toc change.
+------------------------------------------------------------------------
+r85 | cyprias | 2010-05-02 21:37:31 +0000 (Sun, 02 May 2010) | 3 lines
+Changed paths:
+   M /trunk/AVR.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/core.lua
+   M /trunk/options.lua
+
+Changed how I handle scenes due to AVR's author recommendation. 
+Minimap and AVR rings can be coloured by school now. (On by default). I'm now using inside/outside alpha to indicate if we're within range. 
+Removed minimap and AVR solid textures. They looked ugly and blocked the view of what was under.
+------------------------------------------------------------------------
+r83 | cyprias | 2010-05-01 20:19:28 +0000 (Sat, 01 May 2010) | 1 line
+Changed paths:
+   M /trunk/AVR.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/core.lua
+   M /trunk/options.lua
+
+Added Fire Nova ring to fire totems.
+------------------------------------------------------------------------
+r81 | cyprias | 2010-05-01 19:52:39 +0000 (Sat, 01 May 2010) | 3 lines
+Changed paths:
+   M /trunk/AVR.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/core.lua
+   M /trunk/options.lua
+
+Inside/Outside ring colour now affects the alpha on minimap rings.
+Added "Inside/outside ring transparency" sliders to AVR tab. 
+Added totem colour ring which is coloured by the totem school and sits a inch inside the range circle.
+------------------------------------------------------------------------
+r79 | cyprias | 2010-05-01 01:38:37 +0000 (Sat, 01 May 2010) | 1 line
+Changed paths:
+   M /trunk/AVR.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/core.lua
+   M /trunk/options.lua
+
+Minimap icons will rotate properly if minimap rotating is enabled.
+------------------------------------------------------------------------
+r77 | cyprias | 2010-04-30 23:04:40 +0000 (Fri, 30 Apr 2010) | 3 lines
+Changed paths:
+   M /trunk/AVR.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/core.lua
+   M /trunk/options.lua
+
+Added options to change ring colours when inside or outside.
+Changed the AVR fill circle alpha slightly.
+Added description to AVR tab if AVR is not running.
+------------------------------------------------------------------------
+r76 | cyprias | 2010-04-30 19:22:31 +0000 (Fri, 30 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/TotemRadius.toc
+
+Added LibStub, Ace3 & AVR as OptionalDeps to toc file.
+------------------------------------------------------------------------
+r74 | cyprias | 2010-04-30 02:49:08 +0000 (Fri, 30 Apr 2010) | 3 lines
+Changed paths:
+   M /trunk/AVR.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/options.lua
+
+Added options to change AVR ring thickness.
+Added option to shade in the AVR ring.
+Added option to add small circle under totem (AVR)
+------------------------------------------------------------------------
+r73 | cyprias | 2010-04-29 23:07:52 +0000 (Thu, 29 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/AVR.lua
+
+Slightly thicker rings.
+------------------------------------------------------------------------
+r71 | cyprias | 2010-04-29 22:54:59 +0000 (Thu, 29 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   A /trunk/AVR.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/TotemRadius.toc
+   M /trunk/core.lua
+   M /trunk/options.lua
+
+Added Augmented Virtual Reality (AVR) support.
+------------------------------------------------------------------------
+r69 | cyprias | 2010-04-21 23:05:06 +0000 (Wed, 21 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Spell icons offset slightly so they don't stack on each other.
+------------------------------------------------------------------------
+r68 | cyprias | 2010-04-08 21:01:53 +0000 (Thu, 08 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+no changes.
+------------------------------------------------------------------------
