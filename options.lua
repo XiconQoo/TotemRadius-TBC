@@ -53,7 +53,6 @@ function core:OnEnable()
 	
 	local name
 	for spellID, show in pairs(self.totemList) do
-		print(spellID)
 		name = select(1, GetSpellInfo(spellID))
 		defaultShow[name] = show
 	end
@@ -458,7 +457,7 @@ function core:AddAVROptions()
 --~ 		args={}
 --~ 	}
 	CoreOptionsTable.args.avr.args = {} --reset
-	
+	local totemName
 	P.showFireNova = P.showFireNova or {}
 	for spellID, show in pairs(self.fireNovaTotemIDs) do
 		totemName = GetSpellInfo(spellID)
