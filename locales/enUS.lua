@@ -1,5 +1,5 @@
-folder, core = "TotemRadius", CreateFrame("Frame")
-local L = LibStub("AceLocale-3.0"):NewLocale(folder, "enUS", true)
+
+local L = LibStub("AceLocale-3.0"):NewLocale("TotemRadius", "enUS", true)
 
 L["Core"] = true
 L["Enable"] = true

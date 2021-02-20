@@ -1,6 +1,7 @@
-
-
 local LibStub = LibStub
+local folder = "TotemRadius"
+local core = LibStub("AceAddon-3.0"):GetAddon(folder)
+local L = core.L or LibStub("AceLocale-3.0"):GetLocale(folder, true)
 local pairs = pairs
 local activeTotems = core.activeTotems
 local defaultSettings = core.defaultSettings
@@ -11,7 +12,7 @@ local table_sort = table.sort
 local Debug
 local type = type
 
-local L = core.L or LibStub("AceLocale-3.0"):GetLocale(folder, true)
+
 
 defaultSettings.profile.trackOthersTotems = true
 defaultSettings.profile.broadcastTotemLocation = true

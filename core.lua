@@ -1,4 +1,4 @@
-
+local folder, core = "TotemRadius", CreateFrame("Frame")
 
 local LibStub = LibStub
 local Debug
@@ -28,7 +28,7 @@ core.titleFull	= core.title.." "..core.version
 core.addonDir = "Interface\\AddOns\\"..folder.."\\"
 
 local timerFrame = CreateFrame("Frame")
-LibStub("AceAddon-3.0"):NewAddon(core, folder, "AceConsole-3.0", "AceEvent-3.0", "AceHook-3.0", "AceComm-3.0", "AceSerializer-3.0", "AceTimer-3.0") 
+LibStub("AceAddon-3.0"):NewAddon(core, folder, "AceConsole-3.0", "AceEvent-3.0", "AceHook-3.0", "AceComm-3.0", "AceSerializer-3.0", "AceTimer-3.0")
 
 core.L = LibStub("AceLocale-3.0"):GetLocale(folder, true)
 local L = core.L

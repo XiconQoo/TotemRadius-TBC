@@ -1,18 +1,20 @@
-
-
 --locals
 local _G = _G
 local unpack = unpack
-local Debug = core.Debug
 local pairs = pairs
 local UnitInRaid = UnitInRaid
 local UnitInParty = UnitInParty
-local totemInfo = core.totemInfo
+
 local AVRCircleMesh = _G.AVRCircleMesh
 local AVRFilledCircleMesh = _G.AVRFilledCircleMesh
+local GetSpellInfo = GetSpellInfo
+local folder = "TotemRadius"
+
+local core = LibStub("AceAddon-3.0"):GetAddon("TotemRadius")
+local Debug = core.Debug
 local spawnDistance = core.spawnDistance
 local echo = core.echo
-local GetSpellInfo = GetSpellInfo
+local totemInfo = core.totemInfo
 
 local L = core.L or LibStub("AceLocale-3.0"):GetLocale(folder, true)
 

@@ -17,6 +17,7 @@ local SetMapToCurrentZone = SetMapToCurrentZone
 local SetMapZoom = SetMapZoom
 local math_sqrt = math.sqrt
 local math_floor = math.floor
+local core = LibStub("AceAddon-3.0"):GetAddon("TotemRadius")
 
 local prev_OnInitialize = core.OnInitialize;
 function core:OnInitialize()

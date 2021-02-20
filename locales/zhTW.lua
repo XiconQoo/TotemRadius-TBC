@@ -1,5 +1,5 @@
 ﻿
-local L = LibStub("AceLocale-3.0"):NewLocale(folder, "zhTW")
+local L = LibStub("AceLocale-3.0"):NewLocale("TotemRadius", "zhTW")
 if not L then return end
 L["Add other shaman's totems to your minimap."] = "添加其他薩滿的圖騰在迷你地圖上."
 L["Air Colour"] = "空氣圖騰的顏色"

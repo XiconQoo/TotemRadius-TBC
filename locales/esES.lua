@@ -1,5 +1,5 @@
 
-local L = LibStub("AceLocale-3.0"):NewLocale(folder, "esES")
+local L = LibStub("AceLocale-3.0"):NewLocale("TotemRadius", "esES")
 if not L then return end
 L["Add other shaman's totems to your minimap."] = "Añadir otros tótems de chamanes a tu minimapa."
 L["Air Colour"] = "Color Aire"

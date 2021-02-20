@@ -1,5 +1,5 @@
 
-local L = LibStub("AceLocale-3.0"):NewLocale(folder, "ruRU")
+local L = LibStub("AceLocale-3.0"):NewLocale("TotemRadius", "ruRU")
 if not L then return end
 L["Add a small circle where the totem dropped."] = "Добовляет маленькие кольца туда куда был поставлен тотем."
 L["Add a small circle where we think the totem dropped."] = "Добавить небольшой круг, в том месте в котором тотем был поставлен." -- Needs review

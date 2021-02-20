@@ -1,20 +1,19 @@
-
-
 local GetCVar = GetCVar
 local rotateMinimap = GetCVar("rotateMinimap") == "1"
 local Minimap = Minimap
 local indoors = Minimap:GetZoom() == GetCVar( "minimapInsideZoom" ) + 0;
 local CreateFrame = CreateFrame
-local Debug = core.Debug
 local GetPlayerFacing = GetPlayerFacing
 local MiniMapCompassRing = MiniMapCompassRing
 local math_sin = math.sin
 local math_cos = math.cos
 local P
 local activeTotems
+local pairs = pairs
+local core = LibStub("AceAddon-3.0"):GetAddon("TotemRadius")
+local Debug = core.Debug
 local totemInfo = core.totemInfo
 local addonDir = core.addonDir
-local pairs = pairs
 
 local minimapTotems = {}
 

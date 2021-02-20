@@ -1,4 +1,5 @@
-
+local folder = "TotemRadius"
+local core = LibStub("AceAddon-3.0"):GetAddon(folder)
 
 core.spawnDistance = 3 --Totems spawn 3 yards away from you.
 

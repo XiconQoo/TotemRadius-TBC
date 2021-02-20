@@ -3,8 +3,6 @@
 	Zone change code copied from AVR.
 ]]
 
-
-
 local CreateFrame = CreateFrame
 local LibStub = LibStub
 local GetMinimapZoneText = GetMinimapZoneText
@@ -14,14 +12,16 @@ local GetMapInfo = GetMapInfo
 local unpack = unpack
 local GetZoneText = GetZoneText
 local tostring = tostring
-local Debug = core.Debug
 local GetMapContinents = GetMapContinents
 local GetMapZones = GetMapZones
 local pairs = pairs
 local SetMapZoom = SetMapZoom
-local echo = core.echo
+local folder = "TotemRadius"
+local core = LibStub("AceAddon-3.0"):GetAddon(folder)
 
 local L = core.L or LibStub("AceLocale-3.0"):GetLocale(folder, true)
+local Debug = core.Debug
+local echo = core.echo
 
 local coreFrame = CreateFrame("Frame")
 local ZD	= LibStub("AceAddon-3.0"):NewAddon(coreFrame, "TR_ZD", "AceEvent-3.0") -- 
