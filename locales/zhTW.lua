@@ -1,0 +1,21 @@
+﻿
+local L = LibStub("AceLocale-3.0"):NewLocale("TotemRadius", "zhTW")
+if not L then return end
+L["Add other shaman's totems to your minimap."] = "添加其他薩滿的圖騰在迷你地圖上."
+L["Air Colour"] = "空氣圖騰的顏色"
+L["Broadcast totem location"] = "廣播圖騰位置"
+L["Broadcast your totem's location to group members."] = "廣播圖騰的位置給隊友."
+L["Colour of the circle around the totem"] = "圖騰範圍圓的顏色"
+L["Core"] = "核心"
+L["Earth Colour"] = "大地圖騰的顏色"
+L["Enable"] = "啟用"
+L["Enables / Disables the addon"] = "啟用 / 禁用 插件"
+L["Fire Colour"] = "火焰圖騰的顏色"
+L["Hide the icon if we're beyond * yards away."] = "如果距離超過 * 碼就隱藏圖標"
+L["Icon Size"] = "圖標大小"
+L["Minimap Show Range"] = "迷你地圖顯示範圍"
+L["Show %s on minimap."] = "顯示 %s 在小地圖."
+L["Size of the totem icon on the minimap. (Not the circle)"] = "迷你地圖上的圖騰圖標大小.(不是範圍圓)"
+L["Totems"] = "圖騰"
+L["Track other's totems"] = "跟蹤其他圖騰"
+L["Water Colour"] = "水之圖騰的顏色"

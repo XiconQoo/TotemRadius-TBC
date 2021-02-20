@@ -1,0 +1,24 @@
+## Interface: 20400
+## Title: TotemRadius-TBC XiconEdit
+## Version: v1.0-Release
+## Notes: Shows you the radius of your totems.
+## Author: Cyprias@gmail.com, XiconQoo
+## SavedVariables: TR_DB
+## OptionalDeps: LibStub, Ace3, AVR
+## X-Curse-Packaged-Version: r125
+## X-Curse-Project-Name: TotemRadius
+## X-Curse-Project-ID: totemradius
+## X-Curse-Repository-ID: wow/totemradius/mainline
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+libs\embeds.xml
+locales\locales.xml
+core.lua
+totems.lua
+options.lua
+func.lua
+zoneData.lua
+minimap.lua
+AVR.lua
