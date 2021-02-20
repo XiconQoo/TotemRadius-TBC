@@ -459,7 +459,7 @@ function core:AddAVROptions()
 	CoreOptionsTable.args.avr.args = {} --reset
 	
 	P.showFireNova = P.showFireNova or {}
-	for spellID, show in pairs(self.fireNovaTotemIDs) do 
+	for spellID, show in pairs(self.fireNovaTotemIDs) do
 		totemName = GetSpellInfo(spellID)
 		
 		P.showFireNova[totemName] = P.showFireNova[totemName] or show

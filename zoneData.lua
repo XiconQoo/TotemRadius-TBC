@@ -8,7 +8,7 @@
 local CreateFrame = CreateFrame
 local LibStub = LibStub
 local GetMinimapZoneText = GetMinimapZoneText
-local GetCurrentMapDungeonLevel = GetCurrentMapDungeonLevel
+local GetCurrentMapDungeonLevel = function() return 0 end
 local SetMapToCurrentZone = SetMapToCurrentZone
 local GetMapInfo = GetMapInfo
 local unpack = unpack
