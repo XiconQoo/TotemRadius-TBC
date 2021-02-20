@@ -1,8 +1,8 @@
 ## Interface: 20400
-## Title: Totem Radius
-## Version: r125 (r125)
+## Title: TotemRadius-TBC XiconEdit
+## Version: v1.0-Release
 ## Notes: Shows you the radius of your totems.
-## Author: Cyprias@gmail.com
+## Author: Cyprias@gmail.com, XiconQoo
 ## SavedVariables: TR_DB
 ## OptionalDeps: LibStub, Ace3, AVR
 ## X-Curse-Packaged-Version: r125
